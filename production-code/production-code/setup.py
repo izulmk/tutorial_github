@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 # Informasi package (meta-data)
 NAME = 'model-regresi-harga-rumah'
 DESCRIPTION = "Model regresi untuk prediksi rumah"
-URL = "https://github.com/pendekarAI/produksi-harga-rumah"
+URL = "https://github.com/pendekarAI/prediksi-rumah"
 EMAIL = "info@megabagus.id"
 AUTHOR = "MegaBagusHerlambang"
 REQUIRES_PYTHON = ">=3.6.0"
