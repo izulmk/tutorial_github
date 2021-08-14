@@ -16,7 +16,6 @@ def make_prediction(
     *,
     input_data: t.Union[pd.DataFrame, dict],
 ) -> dict:
-    """Make a prediction using a saved model pipeline."""
 
     data = pd.DataFrame(input_data)
     validated_data, errors = validate_inputs(input_data=data)
@@ -27,7 +26,7 @@ def make_prediction(
             X=validated_data[config.model_config.features]
         )
         results = {
-            "predictions": [np.exp(pred) for pred in predictions],  # type: ignore
+            "predictions": [np.exp(pred) for pred in predictions],  
             "version": _version,
             "errors": errors,
         }
