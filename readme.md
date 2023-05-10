@@ -1,1 +1,1 @@
-# Ini adalah file untuk member Platinum
+# Halo ini adalah baris 1
